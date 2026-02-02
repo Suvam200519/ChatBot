@@ -12,7 +12,7 @@ const messagesContainer = document.querySelector("#messages-container");
 const chatForm = document.querySelector("#chat-form");
 
 // API setup
-const API_KEY = "AIzaSyANFcBwUToCxGEl-e2XPHBNVGjXhzezPUM";
+const API_KEY = "";
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${API_KEY}`;
 
 const userData = {
