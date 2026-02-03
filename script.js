@@ -12,8 +12,8 @@ const messagesContainer = document.querySelector("#messages-container");
 const chatForm = document.querySelector("#chat-form");
 
 // API setup
-const API_KEY = "AIzaSyDIKO2bAd6hk9fZIUzIpFcVeF6oBEutfI8";
-const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro-latest:generateContent?key=${API_KEY}`;
+const API_KEY = "AIzaSyBdx4kh3BAlmDt9fuA6A6aHXbm2xuTM--4";
+const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash-latest:generateContent?key=${API_KEY}`;
 
 const userData = {
   message: null,
